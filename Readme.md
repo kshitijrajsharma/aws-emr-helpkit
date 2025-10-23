@@ -39,6 +39,9 @@ nano ~/.ssh/config
 
 Paste following content : 
 
+remember : replace user and identity file : this should point to your ssh file and username on the server
+
+
 ```bash
 Host ubsemr
     User raj
