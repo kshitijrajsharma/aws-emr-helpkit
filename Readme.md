@@ -49,7 +49,7 @@ Host ubsemr
     StrictHostKeyChecking no
     UserKnownHostsFile=/dev/null
     ProxyCommand bash -c "nc $(~/.ssh/emr-host.sh) 22"
-    LocalForward 8888 localhost:8888 # we will use this for the jupyterlab
+    LocalForward 8889 localhost:8889 # we will use this for the jupyterlab
 ```
 
 Now do ssh to system 
@@ -67,7 +67,7 @@ pip install jupyterlab
 now launch it 
 
 ```bash 
-jupyter lab --port 8888 # because we are mapping this port above 
+jupyter lab --port 8889 # because we are mapping this port above , you can change this if port is not available in the machine , remember to change in config as well
 ```
 
 make sure you are not running jupyterlab locally as it will create confict for your tunnelling 
