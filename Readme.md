@@ -67,7 +67,7 @@ pip install jupyterlab
 now launch it 
 
 ```bash 
-jupyter lab
+jupyter lab --port 8888 # because we are mapping this port above 
 ```
 
 make sure you are not running jupyterlab locally as it will create confict for your tunnelling 
