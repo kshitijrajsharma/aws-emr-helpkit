@@ -70,3 +70,10 @@ jupyter lab
 make sure you are not running jupyterlab locally as it will create confict for your tunnelling 
 
 now open the jupyter lab link locally 
+
+
+you can also get your code from the git directly if you like in the server 
+
+```bash
+git clone https://github.com/kshitijrajsharma/fraction-ml-distributed-computing.git
+```
